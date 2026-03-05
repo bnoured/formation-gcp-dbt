@@ -44,6 +44,33 @@
 
 <div class="card">
     <h2>📘 Projet : End-to-End Serverless ELT Pipeline</h2>
+    <h2>Architecture du Pipeline ELT</h2>
+
+<div class="card">
+<p>Le pipeline de données suit cette architecture :</p>
+
+<pre>
+Retail CSV Files
+      ↓
+Cloud Storage (Data Lake)
+      ↓
+BigQuery RAW Dataset
+      ↓
+DBT Transformations
+      ↓
+Analytics Tables
+</pre>
+
+<p>Technologies utilisées :</p>
+
+<ul>
+<li>Google Cloud Storage — stockage des fichiers</li>
+<li>BigQuery — Data Warehouse</li>
+<li>DBT — transformation des données</li>
+<li>Terraform — gestion de l’infrastructure</li>
+</ul>
+
+</div>
     <p>Objectif : Construire un pipeline ELT serverless sur Google Cloud Platform avec DBT.</p>
 </div>
 
