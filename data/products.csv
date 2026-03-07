@@ -1,1 +1,6 @@
-
+product_id,product_name,category,price
+2001,Laptop,Electronics,999
+2002,Keyboard,Electronics,49
+2003,Mouse,Electronics,25
+2004,Office Chair,Furniture,120
+2005,Desk,Furniture,250
