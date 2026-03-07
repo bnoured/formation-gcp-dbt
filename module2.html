@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 2 - GCP Architecture</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Accueil</a> |
+    <a href="module1.html">Module 1</a> |
+    <a href="module2.html">Module 2</a> |
+    <a href="module3.html">Module 3</a> |
+    <a href="checklist.html">Checklist</a>
+</nav>
+
+<hr>
+
+<h1>🏗️ Module 2 — Architecture Google Cloud</h1>
+
+<div class="card">
+
+<h2>Architecture du projet</h2>
+
+<p>
+Notre pipeline de données utilisera plusieurs services Google Cloud.
+</p>
+
+<pre>
+CSV Files
+    ↓
+Cloud Storage
+    ↓
+BigQuery (RAW)
+    ↓
+DBT Transformations
+    ↓
+Analytics Tables
+</pre>
+
+</div>
+
+<div class="card">
+
+<h2>Services utilisés</h2>
+
+<ul>
+
+<li>
+<strong>Cloud Storage</strong><br>
+Stockage des fichiers de données (Data Lake)
+</li>
+
+<li>
+<strong>BigQuery</strong><br>
+Data Warehouse serverless pour l’analyse des données
+</li>
+
+<li>
+<strong>DBT</strong><br>
+Outil de transformation des données dans BigQuery
+</li>
+
+<li>
+<strong>Terraform</strong><br>
+Gestion de l’infrastructure cloud avec Infrastructure as Code
+</li>
+
+</ul>
+
+</div>
+
+</body>
+</html>
