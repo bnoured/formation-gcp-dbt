@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 4 - ELT Pipeline</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Accueil</a> |
+    <a href="module1.html">Module 1</a> |
+    <a href="module2.html">Module 2</a> |
+    <a href="module3.html">Module 3</a> |
+    <a href="module4.html">Module 4</a> |
+    <a href="checklist.html">Checklist</a>
+</nav>
+
+<hr>
+
+<h1>⚙️ Module 4 — ELT Pipeline (Ingestion)</h1>
+
+<div class="card">
+
+<h2>Objectif</h2>
+
+<p>
+Construire un pipeline d’ingestion pour charger les données retail
+dans BigQuery.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Architecture du pipeline</h2>
+
+<pre>
+Retail CSV Files
+        ↓
+Cloud Storage (Data Lake)
+        ↓
+BigQuery RAW Dataset
+</pre>
+
+</div>
+
+<div class="card">
+
+<h2>Étapes du pipeline</h2>
+
+<ul>
+
+<li>
+Uploader les fichiers CSV dans un bucket Google Cloud Storage
+</li>
+
+<li>
+Créer un dataset BigQuery RAW
+</li>
+
+<li>
+Charger les données dans BigQuery
+</li>
+
+</ul>
+
+</div>
+
+</body>
+</html>
