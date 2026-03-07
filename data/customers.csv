@@ -1,1 +1,6 @@
-
+customer_id,customer_name,city,country
+101,John Doe,Paris,France
+102,Jane Smith,Lyon,France
+103,Ali Hassan,Marseille,France
+104,Marie Dupont,Toulouse,France
+105,Carlos Silva,Bordeaux,France
