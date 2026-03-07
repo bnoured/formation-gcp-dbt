@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Module 1 - Fondamentaux Cloud</title>
+    <title>Module 1 - Cloud Fundamentals</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <nav>
     <a href="index.html">Accueil</a> |
     <a href="module1.html">Module 1</a> |
     <a href="module2.html">Module 2</a> |
+    <a href="module3.html">Module 3</a> |
     <a href="checklist.html">Checklist</a>
 </nav>
+
 <hr>
 
-<h1>Module 1 – Fondamentaux Cloud & Serverless</h1>
+<h1>☁️ Module 1 — Fondamentaux Cloud & Serverless</h1>
+
+<div class="card">
 
 <h2>1️⃣ C’est quoi le Cloud Computing ?</h2>
 
 <p>
-Le Cloud Computing consiste à utiliser des ressources informatiques
-(serveurs, stockage, bases de données) via Internet au lieu de les
-installer physiquement chez soi.
+Le Cloud Computing consiste à utiliser des ressources informatiques via Internet
+au lieu d’installer et gérer ses propres serveurs.
 </p>
+
+<p>Exemples de ressources cloud :</p>
+
+<ul>
+<li>Serveurs</li>
+<li>Stockage</li>
+<li>Bases de données</li>
+<li>Services de calcul</li>
+</ul>
+
+<p>
+Les principaux fournisseurs de cloud sont :
+</p>
+
+<ul>
+<li>Google Cloud Platform (GCP)</li>
+<li>AWS</li>
+<li>Microsoft Azure</li>
+</ul>
+
+</div>
+
+<div class="card">
 
 <h2>2️⃣ C’est quoi le Serverless ?</h2>
 
 <p>
-Serverless signifie que tu ne gères pas les serveurs.
-Le cloud provider s’en occupe.
-Tu payes uniquement à l’usage.
+Le serverless signifie que les développeurs ne gèrent pas les serveurs.
+Le fournisseur cloud s’occupe de l’infrastructure.
 </p>
+
+<p>Avantages :</p>
+
+<ul>
+<li>Pas de gestion des serveurs</li>
+<li>Scalabilité automatique</li>
+<li>Paiement uniquement à l’utilisation</li>
+</ul>
+
+<p>Exemples de services serverless :</p>
+
+<ul>
+<li>Google BigQuery</li>
+<li>Cloud Functions</li>
+<li>Cloud Run</li>
+</ul>
+
+</div>
+
+<div class="card">
 
 <h2>3️⃣ ETL vs ELT</h2>
 
-<ul>
-<li>ETL : Transform avant chargement</li>
-<li>ELT : Charger puis transformer (BigQuery + DBT)</li>
-</ul>
+<p>Deux méthodes pour traiter les données :</p>
+
+<h3>ETL</h3>
+
+<pre>
+Extract → Transform → Load
+</pre>
+
+<p>Les données sont transformées avant d’être chargées dans le Data Warehouse.</p>
+
+<h3>ELT</h3>
+
+<pre>
+Extract → Load → Transform
+</pre>
+
+<p>
+Les données sont d’abord chargées dans le Data Warehouse (ex: BigQuery)
+puis transformées avec des outils comme DBT.
+</p>
+
+</div>
 
 </body>
 </html>
